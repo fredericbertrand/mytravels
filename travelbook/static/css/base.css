@@ -1,0 +1,17 @@
+body{
+	background-color: hsl(0, 0%, 98%);
+}
+
+.box-element{
+	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.thumbnail{
+    width: 100%;
+    border-radius: 4px;   
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
