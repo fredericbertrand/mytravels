@@ -7,3 +7,6 @@ class Trip(models.Model):
     startdate = models.DateField()
     enddate = models.DateField()
     image = models.ImageField()
+
+    def __str__(self):
+        return self.name
